@@ -23,9 +23,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		 origin:"*",
+		// origin:"*",
 		//origin:"http://localhost:3000"
-		//origin:"https://studynotioned.onrender.com",
+		origin:"https://study-notion-ed.vercel.app/",
 		 methods: ["GET","HEAD","PUT","PATCH","POST","DELETE"],
 		credentials:true,
 	})
